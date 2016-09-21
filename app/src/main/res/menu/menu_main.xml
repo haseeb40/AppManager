@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.appmanager.MainActivity">
+    <item
+        android:id="@+id/enabled"
+        android:title="Enabled"
+        android:checkable="true"
+        >
+    </item>
+    <item android:title="Auto Start on Boot"
+        android:enabled="true"
+        android:checkable="true" />
+    <item android:title="Change Time Interval"
+        android:icon="@drawable/common_ic_googleplayservices"
+        android:titleCondensed="Change Interval">
+        <menu >
+            <item android:title="2 Hours"
+            android:checkable="true" />
+            <item android:title="3 Hours"
+                android:checkable="true" />
+            <item android:title="4 Hours"
+                android:checkable="true" />
+            <item android:title="6 Hours"
+                android:checkable="true" />
+            <item android:title="Manual"
+                 />
+        </menu>
+    </item>
+    <item android:title="Notification Tone"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:showAsAction="collapseActionView" />
+    <item android:title="Help"
+        android:icon="@android:drawable/ic_menu_help" />
+    <item android:title="Exit" />
+
+
+</menu>
